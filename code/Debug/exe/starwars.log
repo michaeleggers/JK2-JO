@@ -1,0 +1,21 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  exe_headers.cpp
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(929,74): error C2440: 'return': cannot convert from 'const char *' to 'char *'
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(929,66): message : Conversion loses qualifiers
+C:\repos\JK2SourceCode\jk2-1.04-src\code\renderer\tr_public.h(105,9): error C2383: '<unnamed-tag>::Font_HeightPixels': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\renderer\tr_public.h(106,9): error C2383: '<unnamed-tag>::Font_StrLenPixels': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\renderer\tr_public.h(108,9): error C2383: '<unnamed-tag>::Font_DrawString': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(154,10): error C2383: '<unnamed-tag>::ReadFromSaveGame': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(155,10): error C2383: '<unnamed-tag>::ReadFromSaveGameOptional': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(192,9): error C2383: '<unnamed-tag>::trace': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(228,9): error C2383: '<unnamed-tag>::G2API_InitGhoul2Model': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(238,12): error C2383: '<unnamed-tag>::G2API_SetBoneAnim': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(251,12): error C2383: '<unnamed-tag>::G2API_SetBoneAngles': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(254,12): error C2383: '<unnamed-tag>::G2API_SetBoneAnglesMatrix': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(279,9): error C2383: '<unnamed-tag>::G2API_CopyGhoul2Instance': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(290,12): error C2383: '<unnamed-tag>::G2API_SetBoneAnglesIndex': default-arguments are not allowed on this symbol
+C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(295,12): error C2383: '<unnamed-tag>::G2API_SetBoneAnimIndex': default-arguments are not allowed on this symbol
