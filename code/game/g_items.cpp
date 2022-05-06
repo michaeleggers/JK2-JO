@@ -818,7 +818,7 @@ void FinishSpawningItem( gentity_t *ent ) {
 	{
 		ent->s.radius = 20;
 		VectorSet( ent->s.modelScale, 1.0f, 1.0f, 1.0f );
-		gi.G2API_InitGhoul2Model( ent->ghoul2, ent->item->world_model, G_ModelIndex( ent->item->world_model ));
+		gi.G2API_InitGhoul2Model( ent->ghoul2, ent->item->world_model, G_ModelIndex( ent->item->world_model ), NULL, NULL, 0, 0);
 	}
 
 	// Set crystal ammo amount based on skill level

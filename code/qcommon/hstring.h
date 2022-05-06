@@ -146,7 +146,8 @@ public:
 	// return maximum number of elements that can be allocated
 	size_type max_size () const
 	{
-	   return mMaxSize;
+	   //return mMaxSize;
+		return 0; // NOTE(Michael): Dummy. max_size() is never called!
 	}
 	
 	// allocate but don't initialize num elements of type T

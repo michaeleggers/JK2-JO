@@ -1043,7 +1043,7 @@ void InitMover( gentity_t *ent )
 		if ( strstr( ent->model2, ".glm" ))
 		{
 			ent->s.modelindex2 = G_ModelIndex( ent->model2 );
-			ent->playerModel = gi.G2API_InitGhoul2Model( ent->ghoul2, ent->model2, ent->s.modelindex2 );
+			ent->playerModel = gi.G2API_InitGhoul2Model( ent->ghoul2, ent->model2, ent->s.modelindex2, NULL, NULL, 0, 0 );
 			if ( ent->playerModel >= 0 )
 			{
 				ent->rootBone = gi.G2API_GetBoneIndex( &ent->ghoul2[ent->playerModel], "model_root", qtrue );
@@ -2101,7 +2101,7 @@ void SP_func_train (gentity_t *self) {
 	{
 		self->spawnflags &= ~32; // once only
 
-		gi.G2API_SetBoneAnim( &self->ghoul2[self->playerModel], "model_root", self->startFrame, self->endFrame, BONE_ANIM_OVERRIDE_LOOP, 1.0f + crandom() * 0.1f, 0 );
+		gi.G2API_SetBoneAnim( &self->ghoul2[self->playerModel], "model_root", self->startFrame, self->endFrame, BONE_ANIM_OVERRIDE_LOOP, 1.0f + crandom() * 0.1f, 0, -1, -1 );
 		self->endFrame = 0; // don't allow it to do anything with the animation function in G_main
 	}
 }

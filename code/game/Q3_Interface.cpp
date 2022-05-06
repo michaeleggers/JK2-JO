@@ -4690,7 +4690,7 @@ Q3_SetCinematicSkipScript
 
 ============
 */
-static Q3_SetCinematicSkipScript( char *scriptname )
+static int Q3_SetCinematicSkipScript( char *scriptname )
 {
 
 	if(Q_stricmp("none", scriptname) == 0 || Q_stricmp("NULL", scriptname) == 0)
@@ -4702,6 +4702,7 @@ static Q3_SetCinematicSkipScript( char *scriptname )
 		Q_strncpyz(cinematicSkipScript,scriptname,sizeof(cinematicSkipScript));
 	}
 
+	return 0; // NOTE(Michael): This actually is never being read!
 }
 
 /*
@@ -5802,7 +5803,7 @@ static void Q3_AddRHandModel( int entID, char *addModel)
 {
 	gentity_t	*ent  = &g_entities[entID];
 
-	ent->cinematicModel = gi.G2API_InitGhoul2Model(ent->ghoul2, addModel, G_ModelIndex( addModel ));
+	ent->cinematicModel = gi.G2API_InitGhoul2Model(ent->ghoul2, addModel, G_ModelIndex( addModel ), NULL, NULL, 0, 0);
 	if ( ent->cinematicModel != -1 )
 	{
 		// attach it to the hand
@@ -5820,7 +5821,7 @@ static void Q3_AddLHandModel( int entID, char *addModel)
 {
 	gentity_t	*ent  = &g_entities[entID];
 
-	ent->cinematicModel = gi.G2API_InitGhoul2Model(ent->ghoul2, addModel, G_ModelIndex( addModel ));
+	ent->cinematicModel = gi.G2API_InitGhoul2Model(ent->ghoul2, addModel, G_ModelIndex( addModel ), NULL, NULL, 0, 0);
 	if ( ent->cinematicModel != -1 )
 	{
 		// attach it to the hand

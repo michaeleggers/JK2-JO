@@ -13,6 +13,8 @@
 //
 #include "snd_music.h"
 
+#include <string> // NOTE(Michael): This actually fixes stuff (for now). Maybe not the best idea though!
+
 extern qboolean S_FileExists( const char *psFilename );
 					
 
@@ -83,7 +85,7 @@ sstring_t	gsLevelNameForBossLoad;	// eg "kejim_base', special case for enabling 
 //
 static void Music_Parse_Error(LPCSTR psError)
 {
-	string	str(S_COLOR_RED);	// that way I don't have to use either nested va (since quake only has 2), or know what that colour macro actually does
+	std:: string	str(S_COLOR_RED);	// that way I don't have to use either nested va (since quake only has 2), or know what that colour macro actually does
 	string	str2(psError);		// ... so I can re-use va(), which is only 2-deep in Q3
 			str += va("Error parsing music data ( in \"%s\" ):\n%s\n",sFILENAME_DMS,str2.c_str());
 
@@ -926,7 +928,7 @@ qboolean Music_AllowedToTransition( float			fPlayingTimeElapsed,
 			itp.second++;	// increase range to one beyond, so we can do normal STL being/end looping below
 		for (MusicExitTimes_t::iterator it = itp.first; it != itp.second; ++it)
 		{
-			MusicExitTime_t *pExitTime = it;
+			MusicExitTime_t *pExitTime = &*it;
 			
 			if ( fabs(pExitTime->fTime - fPlayingTimeElapsed) <= fTimeEpsilon )
 			{

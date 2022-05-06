@@ -1,21 +1,526 @@
 ﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  exe_headers.cpp
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(929,74): error C2440: 'return': cannot convert from 'const char *' to 'char *'
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\q_shared.h(929,66): message : Conversion loses qualifiers
-C:\repos\JK2SourceCode\jk2-1.04-src\code\renderer\tr_public.h(105,9): error C2383: '<unnamed-tag>::Font_HeightPixels': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\renderer\tr_public.h(106,9): error C2383: '<unnamed-tag>::Font_StrLenPixels': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\renderer\tr_public.h(108,9): error C2383: '<unnamed-tag>::Font_DrawString': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(154,10): error C2383: '<unnamed-tag>::ReadFromSaveGame': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(155,10): error C2383: '<unnamed-tag>::ReadFromSaveGameOptional': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(192,9): error C2383: '<unnamed-tag>::trace': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(228,9): error C2383: '<unnamed-tag>::G2API_InitGhoul2Model': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(238,12): error C2383: '<unnamed-tag>::G2API_SetBoneAnim': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(251,12): error C2383: '<unnamed-tag>::G2API_SetBoneAngles': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(254,12): error C2383: '<unnamed-tag>::G2API_SetBoneAnglesMatrix': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(279,9): error C2383: '<unnamed-tag>::G2API_CopyGhoul2Instance': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(290,12): error C2383: '<unnamed-tag>::G2API_SetBoneAnglesIndex': default-arguments are not allowed on this symbol
-C:\repos\JK2SourceCode\jk2-1.04-src\code\game\g_public.h(295,12): error C2383: '<unnamed-tag>::G2API_SetBoneAnimIndex': default-arguments are not allowed on this symbol
+  common.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\common.cpp(128,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\common.cpp(136,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\common.cpp(178,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\common.cpp(193,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\common.cpp(260,65): error C3680: cannot concatenate user-defined string literals with mismatched literal suffix identifiers
+C:\repos\JK2-JO\code\qcommon\common.cpp(260,65): message : Concatenating suffix 'S_COLOR_MAGENTA' with suffix 'S_COLOR_RED'
+C:\repos\JK2-JO\code\qcommon\common.cpp(260,113): error C3688: invalid literal suffix 'S_COLOR_MAGENTA'; literal operator or literal operator template 'operator ""S_COLOR_MAGENTA' not found
+C:\repos\JK2-JO\code\qcommon\common.cpp(237,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\common.cpp(399,19): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\common.cpp(1351,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cm_test.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  ff_utils.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.cpp(44,14): error C2065: 'i': undeclared identifier
+C:\repos\JK2-JO\code\ff\ff_utils.cpp(44,29): error C2065: 'i': undeclared identifier
+C:\repos\JK2-JO\code\ff\ff_utils.cpp(45,18): error C2065: 'i': undeclared identifier
+C:\repos\JK2-JO\code\ff\ff_utils.cpp(47,16): error C2065: 'i': undeclared identifier
+C:\repos\JK2-JO\code\ff\ff_utils.cpp(47,29): error C2065: 'i': undeclared identifier
+C:\repos\JK2-JO\code\ff\ff_utils.cpp(48,18): error C2065: 'i': undeclared identifier
+  ff_system.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_system.cpp(80,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  ff_snd.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+  ff_ffset.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ffset.cpp(68,8): error C2065: 'j': undeclared identifier
+C:\repos\JK2-JO\code\ff\ff_ffset.cpp(92,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ffset.cpp(105,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ffset.cpp(108,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ffset.cpp(228,11): warning C4456: declaration of 'i' hides previous local declaration
+C:\repos\JK2-JO\code\ff\ff_ffset.cpp(213,8): message : see declaration of 'i'
+C:\repos\JK2-JO\code\ff\ff_ffset.cpp(225,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ffset.cpp(266,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ffset.cpp(277,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  ff_MultiSet.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+  ff_MultiEffect.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(36,2): error C2563: mismatch in formal parameter list
+C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(71,2): error C2563: mismatch in formal parameter list
+C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(110,31): error C2563: mismatch in formal parameter list
+C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(145,31): error C2563: mismatch in formal parameter list
+C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(184,2): error C2563: mismatch in formal parameter list
+C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(209,31): error C2563: mismatch in formal parameter list
+C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(241,2): error C2563: mismatch in formal parameter list
+C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(270,2): error C2563: mismatch in formal parameter list
+  ff_MultiCompound.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_MultiCompound.cpp(195,22): error C2065: 'itSet': undeclared identifier
+  ff_HandleTable.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_HandleTable.cpp(31,5): error C2065: 'itRegFail': undeclared identifier
+C:\repos\JK2-JO\code\ff\ff_HandleTable.cpp(32,7): error C2065: 'itRegFail': undeclared identifier
+C:\repos\JK2-JO\code\ff\ff_HandleTable.cpp(71,4): error C2065: 'i': undeclared identifier
+C:\repos\JK2-JO\code\ff\ff_HandleTable.cpp(72,4): error C2065: 'i': undeclared identifier
+  ff_ConfigParser.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(67,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(72,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(116,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(181,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(326,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(331,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  ff_ChannelSet.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(27,30): error C2440: '=': cannot convert from 'const char *' to 'char *'
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(27,18): message : Conversion loses qualifiers
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(41,6): error C2264: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function definition or declaration; function not called
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(41,6): error C2446: '!=': no conversion from 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>' to 'ChannelIterator'
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(40,33): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(46,11): error C2065: 'itChannel': undeclared identifier
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(22,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(33,44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(82,2): error C2264: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function definition or declaration; function not called
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(82,2): error C2446: '!=': no conversion from 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>' to 'ChannelIterator'
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(81,29): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(125,5): error C2264: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function definition or declaration; function not called
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(125,5): error C2446: '!=': no conversion from 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>' to 'ChannelIterator'
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(124,32): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(112,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(135,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  ff.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
+C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
+C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
+C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
+C:\repos\JK2-JO\code\ff\ff.cpp(290,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  hstring.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\hstring.cpp(87,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\hstring.cpp(90,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\hstring.cpp(423,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\hstring.cpp(479,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\hstring.cpp(485,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
