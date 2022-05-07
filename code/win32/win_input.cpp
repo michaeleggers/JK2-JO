@@ -651,7 +651,7 @@ void IN_Shutdown( void ) {
 	IN_ShutdownMIDI();
 	Cmd_RemoveCommand("midiinfo" );
 #ifndef _IMMERSION
-	FF_Shutdown();
+	//FF_Shutdown();
 #endif // _IMMERSION
 }
 
@@ -687,7 +687,7 @@ void IN_Init( void ) {
 
 	IN_Startup();
 #ifndef _IMMERSION
-	FF_Init();
+	//FF_Init();
 #endif // _IMMERSION
 }
 

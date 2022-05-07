@@ -73,6 +73,8 @@ qboolean FS_VerifyName( const char *src, const char *name, char *out, int maxlen
 //
 //====================================================================/////////////
 
+
+
 template< class T >
 class multimapIterator
 {

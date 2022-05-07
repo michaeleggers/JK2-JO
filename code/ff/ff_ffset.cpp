@@ -51,13 +51,15 @@ void FFSet::InitIncludes( const char *setname )
 {
 	FFConfigParser::TInclude &include = mParser.GetIncludes( setname );
 
+	int i = 0;
 	for	// each include listed in config file
-	(	int i = 0
+	(	
 	;	i < include.size()
 	;	i++
 	){
+		int j = 0;
 		for	// each include entered into current list
-		(	int j = 0
+		(	
 		;	j < mIncludePath.size()
 		;	j++
 		){

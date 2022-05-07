@@ -1,3 +1,903 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\repos\JK2-JO\code\Debug\game.dll) does not match the Linker's OutputFile property value (C:\repos\JK2-JO\code\Debug\jk2gamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+﻿  g_headers.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\game\g_items.h(71,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-ITM_NONE>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_items.h(86,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-INV_ELECTROBINOCULARS>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_shared.h(40,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-HL_NONE>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_navigator.h(137): warning C4091: 'typedef ': ignored on left of 'CNavigator::nodeList_t' when no variable is declared
+  cg_camera.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\cg_camera.cpp(442,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_camera.cpp(1340,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cg_consolecmds.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\cg_consolecmds.cpp(49,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cg_credits.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\cg_credits.cpp(114,3): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_credits.cpp(132,3): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_credits.cpp(174,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_credits.cpp(209,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_credits.cpp(291,10): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_credits.cpp(295,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_credits.cpp(311,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_credits.cpp(318,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_credits.cpp(325,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  cg_draw.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\cg_draw.cpp(900,15): warning C4459: declaration of 'level' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(196,23): message : see declaration of 'level'
+C:\repos\JK2-JO\code\cgame\cg_draw.cpp(1905,22): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+C:\repos\JK2-JO\code\cgame\cg_draw.cpp(2036,22): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+  cg_drawtools.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+  cg_effects.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_effects.cpp(970,31): warning C4456: declaration of 'prim' hides previous local declaration
+C:\repos\JK2-JO\code\cgame\cg_effects.cpp(960,23): message : see declaration of 'prim'
+  cg_ents.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\cg_ents.cpp(734,32): warning C4456: declaration of 'prim' hides previous local declaration
+C:\repos\JK2-JO\code\cgame\cg_ents.cpp(724,24): message : see declaration of 'prim'
+C:\repos\JK2-JO\code\cgame\cg_ents.cpp(1310,14): warning C4459: declaration of 'st' hides global declaration
+C:\repos\JK2-JO\code\cgame\cg_ents.cpp(1299,15): message : see declaration of 'st'
+C:\repos\JK2-JO\code\cgame\cg_ents.cpp(2334,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cg_event.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  cg_headers.cpp
+  cg_info.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+  cg_lights.cpp
+  cg_localents.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+  cg_main.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(526,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(537,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(776,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(1443,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(2179,17): warning C4456: declaration of 'pointSize' hides previous local declaration
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(2120,6): message : see declaration of 'pointSize'
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(2988,14): warning C4456: declaration of 'x' hides previous local declaration
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(2847,15): message : see declaration of 'x'
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(2983,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(3322,22): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(3576,12): warning C4456: declaration of 'x' hides previous local declaration
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(3430,13): message : see declaration of 'x'
+C:\repos\JK2-JO\code\cgame\cg_main.cpp(3588,22): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+  cg_marks.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+  cg_players.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(187,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(193,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(644,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(4456,22): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(4493,22): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(4929,20): warning C4456: declaration of 'ent' hides previous local declaration
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(4884,17): message : see declaration of 'ent'
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(5054,20): warning C4456: declaration of 'ent' hides previous local declaration
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(4884,17): message : see declaration of 'ent'
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(5455,28): warning C4456: declaration of 'boltMatrix' hides previous local declaration
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(5254,14): message : see declaration of 'boltMatrix'
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(5541,27): warning C4456: declaration of 'boltMatrix' hides previous local declaration
+C:\repos\JK2-JO\code\cgame\cg_players.cpp(5254,14): message : see declaration of 'boltMatrix'
+  cg_playerstate.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+  cg_predict.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+  cg_scoreboard.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+  cg_servercmds.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(32,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(33,2): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(46,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(48,5): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(51,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(59,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(61,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(69,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(71,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(83,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(84,5): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(87,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(94,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(95,5): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(98,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(105,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(107,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(114,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(116,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(123,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(130,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_servercmds.cpp(132,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cg_snapshot.cpp
+  Generating Code...
+  Compiling...
+  cg_syscalls.cpp
+C:\repos\JK2-JO\code\cgame\cg_syscalls.cpp(410,59): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+  cg_text.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\cg_text.cpp(446,8): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  cg_view.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\cg_view.cpp(174,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_view.cpp(1739,22): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+  cg_weapons.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(79,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(86,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(88,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(128,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(129,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(132,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(144,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(146,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(2034,12): warning C4456: declaration of 'x' hides previous local declaration
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(1838,13): message : see declaration of 'x'
+C:\repos\JK2-JO\code\cgame\cg_weapons.cpp(2359,22): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+  FX_ATSTMain.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FX_Blaster.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FX_Bowcaster.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FX_BryarPistol.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FX_DEMP2.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FX_Disruptor.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FX_Emplaced.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FX_Flechette.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FX_HeavyRepeater.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FX_RocketLauncher.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  Generating Code...
+  FxParsing.cpp
+  FxPrimitives.cpp
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+  FxScheduler.cpp
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(48,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(208,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(286,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(290,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(294,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(298,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(308,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(312,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(316,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(320,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(324,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(328,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(332,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(336,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(340,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(423,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(522,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(99,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(98): message : while compiling class template member function 'bool sstring<64>::operator <(const sstring<64> &) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef(127): message : see reference to function template instantiation 'bool sstring<64>::operator <(const sstring<64> &) const' being compiled
+C:\repos\JK2-JO\code\cgame\FxScheduler.cpp(121): message : see reference to class template instantiation 'sstring<64>' being compiled
+  FxSystem.cpp
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxSystem.cpp(31,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FxTemplate.cpp
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(68,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(178,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(215,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(255,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(267,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(271,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(275,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(279,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(283,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(678,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(687,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(691,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(695,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(699,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(703,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(707,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(711,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(715,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(719,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(723,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(727,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(757,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(766,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(770,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(774,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(778,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(782,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(786,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(790,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(794,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(798,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(802,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(806,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(810,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(814,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(818,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(1921,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(1925,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(1929,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(1933,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(1975,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(1979,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(1983,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(1987,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2029,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2033,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2037,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2041,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2083,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2087,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2091,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2095,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2137,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2141,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2145,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2149,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2185,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2189,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2193,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2197,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2207,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2211,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2215,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2219,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2223,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2227,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2232,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2236,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2240,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2244,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2248,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2252,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2256,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2260,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2264,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2268,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2272,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2276,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2280,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2284,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2288,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2292,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2300,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2304,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2308,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2313,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2331,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2335,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2339,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2343,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\FxTemplate.cpp(2347,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FxUtil.cpp
+C:\repos\JK2-JO\code\cgame\FxScheduler.h(362,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  tri_coll_test.cpp
+C:\repos\JK2-JO\code\qcommon\tri_coll_test.cpp(293,3): warning C4456: declaration of 'c' hides previous local declaration
+C:\repos\JK2-JO\code\qcommon\tri_coll_test.cpp(217,11): message : see declaration of 'c'
+C:\repos\JK2-JO\code\qcommon\tri_coll_test.cpp(294,3): warning C4456: declaration of 'c' hides previous local declaration
+C:\repos\JK2-JO\code\qcommon\tri_coll_test.cpp(217,11): message : see declaration of 'c'
+  bg_misc.cpp
+  bg_pangles.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\bg_pangles.cpp(67,63): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\bg_pangles.cpp(88,63): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\bg_pangles.cpp(192,69): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\bg_pangles.cpp(279,67): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\bg_pangles.cpp(319,66): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\bg_pangles.cpp(334,66): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+  bg_panimate.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\bg_panimate.cpp(2344,21): warning C4456: declaration of 'firstFrame' hides previous local declaration
+C:\repos\JK2-JO\code\game\bg_panimate.cpp(2285,40): message : see declaration of 'firstFrame'
+C:\repos\JK2-JO\code\game\bg_panimate.cpp(2345,20): warning C4456: declaration of 'lastFrame' hides previous local declaration
+C:\repos\JK2-JO\code\game\bg_panimate.cpp(2285,52): message : see declaration of 'lastFrame'
+C:\repos\JK2-JO\code\game\bg_panimate.cpp(2582,24): warning C4456: declaration of 'currentFrame' hides previous local declaration
+C:\repos\JK2-JO\code\game\bg_panimate.cpp(2536,11): message : see declaration of 'currentFrame'
+C:\repos\JK2-JO\code\game\bg_panimate.cpp(2583,16): warning C4456: declaration of 'flags' hides previous local declaration
+C:\repos\JK2-JO\code\game\bg_panimate.cpp(2537,10): message : see declaration of 'flags'
+C:\repos\JK2-JO\code\game\bg_panimate.cpp(2662,26): warning C4459: declaration of 'pm' hides global declaration
+C:\repos\JK2-JO\code\game\bg_panimate.cpp(18,17): message : see declaration of 'pm'
+  bg_pmove.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\bg_pmove.cpp(2381,133): warning C4838: conversion from 'int' to 'vec_t' requires a narrowing conversion
+C:\repos\JK2-JO\code\game\bg_pmove.cpp(6071,49): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\bg_pmove.cpp(7208,26): warning C4456: declaration of 'saberInAir' hides previous local declaration
+C:\repos\JK2-JO\code\game\bg_pmove.cpp(6781,11): message : see declaration of 'saberInAir'
+C:\repos\JK2-JO\code\game\bg_pmove.cpp(7317,25): warning C4456: declaration of 'saberInAir' hides previous local declaration
+C:\repos\JK2-JO\code\game\bg_pmove.cpp(6781,11): message : see declaration of 'saberInAir'
+C:\repos\JK2-JO\code\game\bg_pmove.cpp(8445,57): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\bg_pmove.cpp(8595,38): warning C4459: declaration of 'pm' hides global declaration
+C:\repos\JK2-JO\code\game\bg_pmove.cpp(83,11): message : see declaration of 'pm'
+  bg_slidemove.cpp
+  q_math.cpp
+  q_shared.cpp
+C:\repos\JK2-JO\code\game\q_shared.cpp(81,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(652,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(790,8): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(821,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(981,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(1054,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  BlockStream.cpp
+C:\repos\JK2-JO\code\Icarus\BlockStream.cpp(492,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\BlockStream.cpp(496,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\BlockStream.cpp(531,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\BlockStream.cpp(533,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\BlockStream.cpp(536,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\BlockStream.cpp(538,24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Instance.cpp
+C:\repos\JK2-JO\code\Icarus\Instance.cpp(113,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Instance.cpp(116,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Instance.cpp(119,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Instance.cpp(122,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Instance.cpp(125,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Instance.cpp(128,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Sequence.cpp
+  TaskManager.cpp
+C:\repos\JK2-JO\code\Icarus\TaskManager.cpp(193,26): warning C4459: declaration of 'gi' hides global declaration
+C:\repos\JK2-JO\code\game\g_shared.h(827,22): message : see declaration of 'gi'
+C:\repos\JK2-JO\code\Icarus\TaskManager.cpp(568,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\TaskManager.cpp(585,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\TaskManager.cpp(611,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\TaskManager.cpp(631,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\TaskManager.cpp(644,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\TaskManager.cpp(652,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\TaskManager.cpp(668,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Sequencer.cpp
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1064,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1078,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1111,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1124,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1143,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1164,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1187,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1234,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1248,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1281,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1294,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1313,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1335,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(1359,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(2214,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\Icarus\Sequencer.cpp(2218,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AI_Atst.cpp
+  AI_Default.cpp
+C:\repos\JK2-JO\code\game\AI_Default.cpp(87,45): warning C4459: declaration of 'NPC' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(61,19): message : see declaration of 'NPC'
+  AI_Droid.cpp
+  AI_GalakMech.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+  AI_Grenadier.cpp
+  AI_Howler.cpp
+  AI_ImperialProbe.cpp
+  AI_Interrogator.cpp
+  AI_Jedi.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\AI_Jedi.cpp(1460,20): warning C4456: declaration of 'fwdAngles' hides previous local declaration
+C:\repos\JK2-JO\code\game\AI_Jedi.cpp(1413,112): message : see declaration of 'fwdAngles'
+C:\repos\JK2-JO\code\game\AI_Jedi.cpp(1514,20): warning C4456: declaration of 'parts' hides previous local declaration
+C:\repos\JK2-JO\code\game\AI_Jedi.cpp(1418,7): message : see declaration of 'parts'
+C:\repos\JK2-JO\code\game\AI_Jedi.cpp(1567,18): warning C4456: declaration of 'parts' hides previous local declaration
+C:\repos\JK2-JO\code\game\AI_Jedi.cpp(1418,7): message : see declaration of 'parts'
+  AI_Mark1.cpp
+  AI_Mark2.cpp
+  AI_MineMonster.cpp
+  AI_Remote.cpp
+  AI_Seeker.cpp
+  AI_Sentry.cpp
+  AI_Sniper.cpp
+  AI_Stormtrooper.cpp
+  AI_Utils.cpp
+  g_active.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_active.cpp(284,53): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\g_active.cpp(400,44): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+C:\repos\JK2-JO\code\game\g_active.cpp(401,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_active.cpp(1119,53): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_active.cpp(1163,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_active.cpp(1200,59): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_active.cpp(1226,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_active.cpp(1309,55): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\g_active.cpp(1484,55): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\g_active.cpp(1787,53): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\g_active.cpp(1862,52): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\g_active.cpp(1942,61): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\g_active.cpp(1992,51): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\g_active.cpp(1994,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_active.cpp(2928,52): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+  Generating Code...
+  Compiling...
+  g_breakable.cpp
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_breakable.cpp(655,22): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+C:\repos\JK2-JO\code\game\g_breakable.cpp(882,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_breakable.cpp(884,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_breakable.cpp(885,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_breakable.cpp(890,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_breakable.cpp(895,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_breakable.cpp(901,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  g_camera.cpp
+  g_client.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_client.cpp(374,74): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_client.cpp(404,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_client.cpp(415,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_client.cpp(493,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_client.cpp(555,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_client.cpp(614,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_client.cpp(652,22): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_client.cpp(665,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_client.cpp(695,10): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_client.cpp(701,12): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_client.cpp(708,10): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_client.cpp(714,12): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_client.cpp(723,10): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_client.cpp(729,12): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_client.cpp(1476,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_client.cpp(1482,16): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+  g_cmds.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+  g_combat.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_combat.cpp(1910,17): warning C4456: declaration of 'newBolt' hides previous local declaration
+C:\repos\JK2-JO\code\game\g_combat.cpp(1825,6): message : see declaration of 'newBolt'
+C:\repos\JK2-JO\code\game\g_combat.cpp(4344,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_combat.cpp(4835,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_combat.cpp(5498,35): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+  g_functions.cpp
+  g_fx.cpp
+C:\repos\JK2-JO\code\game\g_fx.cpp(267,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_fx.cpp(291,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_fx.cpp(545,14): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+  g_ICARUS.cpp
+C:\repos\JK2-JO\code\game\g_ICARUS.cpp(187,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_ICARUS.cpp(190,49): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\game\g_ICARUS.cpp(252,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_ICARUS.cpp(255,18): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\game\g_ICARUS.cpp(284,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_ICARUS.cpp(548,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  g_inventory.cpp
+  g_itemLoad.cpp
+  g_items.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_items.cpp(1108,15): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+  g_main.cpp
+C:\repos\JK2-JO\code\game\g_main.cpp(801,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_main.cpp(816,54): warning C4459: declaration of 'level' hides global declaration
+C:\repos\JK2-JO\code\game\g_main.cpp(24,16): message : see declaration of 'level'
+C:\repos\JK2-JO\code\game\g_main.cpp(821,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_main.cpp(838,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  g_mem.cpp
+  g_misc.cpp
+C:\repos\JK2-JO\code\game\g_misc.cpp(170,33): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+  g_misc_model.cpp
+C:\repos\JK2-JO\code\game\g_misc_model.cpp(29,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_misc_model.cpp(31,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_misc_model.cpp(32,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_misc_model.cpp(38,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  g_missile.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+  g_mover.cpp
+  g_nav.cpp
+C:\repos\JK2-JO\code\game\g_nav.cpp(1615,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_nav.cpp(1619,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_nav.cpp(1623,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_nav.cpp(1627,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_nav.cpp(1635,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  g_navigator.cpp
+C:\repos\JK2-JO\code\game\g_navigator.cpp(2030,16): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+  g_navnew.cpp
+C:\repos\JK2-JO\code\game\g_navnew.cpp(60,91): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+  Generating Code...
+  Compiling...
+  g_object.cpp
+  g_objectives.cpp
+C:\repos\JK2-JO\code\game\g_objectives.cpp(42,44): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_objectives.cpp(55,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_objectives.cpp(67,44): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_objectives.cpp(80,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+  g_ref.cpp
+C:\repos\JK2-JO\code\game\g_ref.cpp(150,3): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\g_ref.cpp(214,26): warning C4456: declaration of 'tagOwner' hides previous local declaration
+C:\repos\JK2-JO\code\game\g_ref.cpp(203,14): message : see declaration of 'tagOwner'
+C:\repos\JK2-JO\code\game\g_ref.cpp(187,2): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+  g_roff.cpp
+C:\repos\JK2-JO\code\game\g_roff.cpp(112,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_roff.cpp(151,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_roff.cpp(388,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_roff.cpp(393,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  g_savegame.cpp
+C:\repos\JK2-JO\code\game\g_savegame.cpp(674,24): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_savegame.cpp(939,22): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+  g_session.cpp
+C:\repos\JK2-JO\code\game\g_session.cpp(26,52): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_session.cpp(92,45): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\g_session.cpp(100,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_session.cpp(109,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_session.cpp(117,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_session.cpp(136,8): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_session.cpp(142,13): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_session.cpp(150,8): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_session.cpp(156,13): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_session.cpp(169,61): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+  g_spawn.cpp
+C:\repos\JK2-JO\code\game\g_spawn.cpp(68,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_spawn.cpp(77,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_spawn.cpp(111,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_spawn.cpp(782,24): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\g_spawn.cpp(797,25): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(99,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(98): message : while compiling class template member function 'bool sstring<64>::operator <(const sstring<64> &) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef(127): message : see reference to function template instantiation 'bool sstring<64>::operator <(const sstring<64> &) const' being compiled
+C:\repos\JK2-JO\code\game\g_spawn.cpp(1294): message : see reference to class template instantiation 'sstring<64>' being compiled
+  g_svcmds.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+  g_target.cpp
+C:\repos\JK2-JO\code\game\g_target.cpp(1056,28): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+  G_Timer.cpp
+  g_trigger.cpp
+C:\repos\JK2-JO\code\game\g_trigger.cpp(1455,22): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+  g_turret.cpp
+C:\repos\JK2-JO\code\game\g_turret.cpp(1941,21): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+  g_usable.cpp
+  g_utils.cpp
+C:\repos\JK2-JO\code\game\g_utils.cpp(48,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\cgame\cg_media.h(47,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-CHUNK_METAL1>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_utils.cpp(458,60): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+C:\repos\JK2-JO\code\game\g_utils.cpp(1491,104): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+C:\repos\JK2-JO\code\game\g_utils.cpp(1520,87): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+  g_weapon.cpp
+C:\repos\JK2-JO\code\game\g_weapon.cpp(731,15): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+C:\repos\JK2-JO\code\game\g_weapon.cpp(1823,7): warning C4459: declaration of 'up' hides global declaration
+C:\repos\JK2-JO\code\game\g_weapon.cpp(14,34): message : see declaration of 'up'
+C:\repos\JK2-JO\code\game\g_weapon.cpp(3281,82): warning C4459: declaration of 'up' hides global declaration
+C:\repos\JK2-JO\code\game\g_weapon.cpp(14,34): message : see declaration of 'up'
+  NPC.cpp
+  NPC_behavior.cpp
+  NPC_combat.cpp
+  NPC_goal.cpp
+  NPC_misc.cpp
+C:\repos\JK2-JO\code\game\NPC_misc.cpp(37,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_misc.cpp(75,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  NPC_move.cpp
+  NPC_reactions.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+  NPC_senses.cpp
+C:\repos\JK2-JO\code\game\NPC_senses.cpp(20,75): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+  NPC_sounds.cpp
+  NPC_spawn.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\NPC_spawn.cpp(774,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\NPC_spawn.cpp(775,16): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\NPC_spawn.cpp(1244,19): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_spawn.cpp(2923,19): warning C4459: declaration of 'player' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(211,19): message : see declaration of 'player'
+  NPC_stats.cpp
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(681,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(686,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(688,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(719,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(949,34): warning C4459: declaration of 'NPC' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(61,19): message : see declaration of 'NPC'
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(1046,58): warning C4459: declaration of 'NPC' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(61,19): message : see declaration of 'NPC'
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(1064,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(1301,6): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(1302,6): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(1320,6): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(1321,6): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(2222,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\NPC_stats.cpp(2250,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  NPC_utils.cpp
+  Q3_Interface.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(432,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(686,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(704,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(900,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(903,28): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(993,2): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(1001,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(1008,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(1013,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(1018,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(4128,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(4133,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6540,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6549,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6563,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6834,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6836,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6841,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6843,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6848,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6850,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6855,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6857,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6862,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6864,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6869,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6871,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6876,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6878,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6883,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6885,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6992,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7009,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7016,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7023,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7030,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7037,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7044,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7051,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7058,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7065,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7072,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7079,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7086,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7093,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7100,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7107,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7114,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7121,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7128,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7135,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7151,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7158,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7165,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7172,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7187,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7194,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7201,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7208,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7215,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7222,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7229,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7311,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7341,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7352,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7364,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7375,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7386,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7397,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7408,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7419,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7430,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7434,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7441,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7445,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7449,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7454,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7470,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7474,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7481,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7503,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7514,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7584,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7595,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7614,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7665,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(7669,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(8535,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(8886,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(8887,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(8891,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(8892,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(8896,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(8897,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(8940,18): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(9040,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(9095,25): warning C4459: declaration of 'level' hides global declaration
+C:\repos\JK2-JO\code\game\g_local.h(196,23): message : see declaration of 'level'
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(9105,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(9124,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(9154,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(9241,19): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+  Q3_Registers.cpp
+C:\repos\JK2-JO\code\game\Q3_Registers.cpp(182,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  wp_saber.cpp
+C:\repos\JK2-JO\code\game\wp_saber.h(66,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FORCE_LEVEL_0>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.h(77,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-FJ_FORWARD>' when no variable is declared
+C:\repos\JK2-JO\code\game\wp_saber.cpp(259,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\wp_saber.cpp(265,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\wp_saber.cpp(267,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\wp_saber.cpp(345,34): warning C4459: declaration of 'client' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(63,19): message : see declaration of 'client'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(1249,98): warning C4459: declaration of 'dmgDir' hides global declaration
+C:\repos\JK2-JO\code\game\wp_saber.cpp(16,15): message : see declaration of 'dmgDir'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(1434,38): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(2801,14): warning C4456: declaration of 'ma1' hides previous local declaration
+C:\repos\JK2-JO\code\game\wp_saber.cpp(2792,10): message : see declaration of 'ma1'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(2801,19): warning C4456: declaration of 'ma2' hides previous local declaration
+C:\repos\JK2-JO\code\game\wp_saber.cpp(2792,15): message : see declaration of 'ma2'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(3676,64): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(4395,49): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(4856,66): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(5172,50): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(6256,15): warning C4456: declaration of 'tr' hides previous local declaration
+C:\repos\JK2-JO\code\game\wp_saber.cpp(5628,11): message : see declaration of 'tr'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(7403,16): warning C4459: declaration of 'ignore' hides global declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(157,31): message : see declaration of 'std::ignore'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(7439,51): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(7477,77): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(7547,45): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+C:\repos\JK2-JO\code\game\wp_saber.cpp(8370,56): warning C4459: declaration of 'ucmd' hides global declaration
+C:\repos\JK2-JO\code\game\b_local.h(64,18): message : see declaration of 'ucmd'
+  Generating Code...
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(4125): warning C4706: assignment within conditional expression
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(6485): warning C4706: assignment within conditional expression
+C:\repos\JK2-JO\code\game\Q3_Interface.cpp(3787): warning C4706: assignment within conditional expression
+  gameinfo.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  genericparser2.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\game\g_items.h(71,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-ITM_NONE>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_items.h(86,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-INV_ELECTROBINOCULARS>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_shared.h(40,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-HL_NONE>' when no variable is declared
+C:\repos\JK2-JO\code\game\genericparser2.cpp(214,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(373,14): warning C4459: declaration of 'token' hides global declaration
+C:\repos\JK2-JO\code\game\genericparser2.cpp(22,13): message : see declaration of 'token'
+C:\repos\JK2-JO\code\game\genericparser2.cpp(384,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(596,8): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(679,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(690,14): warning C4459: declaration of 'token' hides global declaration
+C:\repos\JK2-JO\code\game\genericparser2.cpp(22,13): message : see declaration of 'token'
+C:\repos\JK2-JO\code\game\genericparser2.cpp(710,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(715,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(719,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(728,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(797,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+  g_weaponLoad.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\game\g_items.h(71,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-ITM_NONE>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_items.h(86,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-INV_ELECTROBINOCULARS>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_shared.h(40,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-HL_NONE>' when no variable is declared
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\repos\JK2-JO\code\Debug\game.dll) does not match the Linker's OutputFile property value (C:\repos\JK2-JO\code\Debug\jk2gamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1365,5): warning MSB8012: TargetName(game) does not match the Linker's OutputFile property value (jk2gamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
   game.vcxproj -> C:\repos\JK2-JO\code\Debug\game.dll

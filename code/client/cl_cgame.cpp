@@ -530,18 +530,18 @@ int CL_CgameSystemCalls( int *args ) {
 		CL_FF_AddLoopingForce( (ffHandle_t) args[1], (int) args[2] );
 		return 0;
 #else
-	case CG_FF_STARTFX:
-		FFFX_START( (ffFX_e) args[1] );
-		return 0;
-	case CG_FF_ENSUREFX:
-		FFFX_ENSURE( (ffFX_e) args[1] );
-		return 0;
-	case CG_FF_STOPFX:
-		FFFX_STOP( (ffFX_e) args[1] );
-		return 0;
-	case CG_FF_STOPALLFX:
-		FFFX_STOPALL;
-		return 0;
+	//case CG_FF_STARTFX:
+	//	FFFX_START( (ffFX_e) args[1] );
+	//	return 0;
+	//case CG_FF_ENSUREFX:
+	//	FFFX_ENSURE( (ffFX_e) args[1] );
+	//	return 0;
+	//case CG_FF_STOPFX:
+	//	FFFX_STOP( (ffFX_e) args[1] );
+	//	return 0;
+	//case CG_FF_STOPALLFX:
+	//	FFFX_STOPALL;
+	//	return 0;
 #endif // _IMMERSION
 	case CG_R_LOADWORLDMAP:
 		re.LoadWorld( (const char *) VMA(1) );

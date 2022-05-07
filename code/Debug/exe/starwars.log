@@ -1,4 +1,564 @@
-﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+﻿  exe_headers.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  cl_cgame.cpp
+  cl_cin.cpp
+C:\repos\JK2-JO\code\client\cl_cin.cpp(835,82): warning C4389: '==': signed/unsigned mismatch
+C:\repos\JK2-JO\code\client\cl_cin.cpp(835,131): warning C4389: '==': signed/unsigned mismatch
+C:\repos\JK2-JO\code\client\cl_cin.cpp(1332,13): warning C4389: '!=': signed/unsigned mismatch
+C:\repos\JK2-JO\code\client\cl_cin.cpp(1392,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_cin.cpp(1686,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_cin.cpp(1687,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_cin.cpp(1709,39): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\cl_cin.cpp(1712,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\cl_cin.cpp(1732,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\cl_cin.cpp(1738,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\cl_cin.cpp(1826,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cl_console.cpp
+C:\repos\JK2-JO\code\client\cl_console.cpp(434,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_console.cpp(436,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_console.cpp(599,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_console.cpp(601,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cl_input.cpp
+  cl_keys.cpp
+C:\repos\JK2-JO\code\client\cl_keys.cpp(699,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_keys.cpp(708,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_keys.cpp(720,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_keys.cpp(918,29): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\cl_keys.cpp(1209,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_keys.cpp(1211,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cl_main.cpp
+C:\repos\JK2-JO\code\client\cl_main.cpp(355,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_main.cpp(356,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_main.cpp(360,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_main.cpp(361,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_main.cpp(364,3): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details.
+C:\repos\JK2-JO\code\client\cl_main.cpp(368,15): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_main.cpp(854,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_main.cpp(949,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\cl_main.cpp(1062,16): warning C4459: declaration of 'ri' hides global declaration
+C:\repos\JK2-JO\code\renderer\tr_local.h(834,21): message : see declaration of 'ri'
+C:\repos\JK2-JO\code\client\cl_main.cpp(1300,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cl_mp3.cpp
+  cl_parse.cpp
+  cl_scrn.cpp
+  cl_ui.cpp
+  snd_ambient.cpp
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(185,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(206,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(250,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(284,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(293,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(304,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(305,4): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(306,4): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(307,4): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(308,4): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(344,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(347,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(348,2): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(349,2): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(373,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(403,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(421,24): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(480,24): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(543,24): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(612,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(653,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(660,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(662,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(748,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(99,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(98): message : while compiling class template member function 'bool sstring<64>::operator <(const sstring<64> &) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef(127): message : see reference to function template instantiation 'bool sstring<64>::operator <(const sstring<64> &) const' being compiled
+C:\repos\JK2-JO\code\client\snd_ambient.cpp(122): message : see reference to class template instantiation 'sstring<64>' being compiled
+  snd_dma.cpp
+C:\repos\JK2-JO\code\client\snd_dma.cpp(37,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+C:\repos\JK2-JO\code\client\snd_dma.cpp(1417,97): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(1433,62): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(1883,87): warning C4459: declaration of 's_channels' hides global declaration
+C:\repos\JK2-JO\code\client\snd_dma.cpp(125,13): message : see declaration of 's_channels'
+C:\repos\JK2-JO\code\client\snd_dma.cpp(1914,58): warning C4459: declaration of 's_channels' hides global declaration
+C:\repos\JK2-JO\code\client\snd_dma.cpp(125,13): message : see declaration of 's_channels'
+C:\repos\JK2-JO\code\client\snd_dma.cpp(2143,23): warning C4389: '==': signed/unsigned mismatch
+C:\repos\JK2-JO\code\client\snd_dma.cpp(2701,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(2758,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(2983,25): warning C4456: declaration of 'szString' hides previous local declaration
+C:\repos\JK2-JO\code\client\snd_dma.cpp(2832,7): message : see declaration of 'szString'
+C:\repos\JK2-JO\code\client\snd_dma.cpp(2930,12): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(2984,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(3026,20): warning C4456: declaration of 'pos' hides previous local declaration
+C:\repos\JK2-JO\code\client\snd_dma.cpp(3003,8): message : see declaration of 'pos'
+C:\repos\JK2-JO\code\client\snd_dma.cpp(3365,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(3390,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(3542,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(3547,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(3553,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(3558,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(3563,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(3614,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(4737,45): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_dma.cpp(4825,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  snd_mem.cpp
+C:\repos\JK2-JO\code\client\snd_mem.cpp(264,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(276,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(313,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(322,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(407,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(436,10): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(439,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(440,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(441,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(442,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(443,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(541,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(575,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(579,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(586,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(589,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(593,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(600,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(603,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(607,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(614,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(616,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(622,21): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(624,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(626,26): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(628,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(630,26): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(632,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(660,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(706,7): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(748,2): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\client\snd_mem.cpp(770,6): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  snd_mix.cpp
+C:\repos\JK2-JO\code\client\snd_mix.cpp(188,13): warning C4456: declaration of 'count' hides previous local declaration
+C:\repos\JK2-JO\code\client\snd_mix.cpp(176,7): message : see declaration of 'count'
+  snd_music.cpp
+C:\repos\JK2-JO\code\client\snd_music.cpp(172,72): warning C4459: declaration of 'MusicData' hides global declaration
+C:\repos\JK2-JO\code\client\snd_music.cpp(77,23): message : see declaration of 'MusicData'
+C:\repos\JK2-JO\code\client\snd_music.cpp(355,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_music.cpp(384,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\client\snd_music.cpp(618,32): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\client\snd_music.cpp(758,2): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(99,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(98): message : while compiling class template member function 'bool sstring<64>::operator <(const sstring<64> &) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef(127): message : see reference to function template instantiation 'bool sstring<64>::operator <(const sstring<64> &) const' being compiled
+C:\repos\JK2-JO\code\client\snd_music.cpp(46): message : see reference to class template instantiation 'sstring<64>' being compiled
+  jcapimin.cpp
+  jccoefct.cpp
+  jccolor.cpp
+  jcdctmgr.cpp
+  jchuff.cpp
+  Generating Code...
+  Compiling...
+  jcinit.cpp
+  jcmainct.cpp
+  jcmarker.cpp
+  jcmaster.cpp
+  jcomapi.cpp
+  jcparam.cpp
+  jcphuff.cpp
+  jcprepct.cpp
+  jcsample.cpp
+  jctrans.cpp
+  jdapimin.cpp
+  jdapistd.cpp
+  jdatadst.cpp
+  jdatasrc.cpp
+  jdcoefct.cpp
+  jdcolor.cpp
+  jddctmgr.cpp
+  jdhuff.cpp
+  jdinput.cpp
+  jdmainct.cpp
+  Generating Code...
+  Compiling...
+  jdmarker.cpp
+  jdmaster.cpp
+  jdpostct.cpp
+  jdsample.cpp
+  jdtrans.cpp
+  jerror.cpp
+C:\repos\JK2-JO\code\jpeg-6\jerror.cpp(180,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\jpeg-6\jerror.cpp(182,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jfdctflt.cpp
+  jidctflt.cpp
+  jmemmgr.cpp
+C:\repos\JK2-JO\code\jpeg-6\jmemmgr.cpp(1108,19): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\jpeg-6\jmemmgr.cpp(1111,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jmemnobs.cpp
+  jutils.cpp
+  tr_animation.cpp
+  tr_backend.cpp
+C:\repos\JK2-JO\code\renderer\tr_backend.cpp(544,23): warning C4389: '==': signed/unsigned mismatch
+  tr_bsp.cpp
+C:\repos\JK2-JO\code\renderer\tr_bsp.cpp(1114,18): warning C4389: '!=': signed/unsigned mismatch
+C:\repos\JK2-JO\code\renderer\tr_bsp.cpp(1201,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  tr_cmds.cpp
+  tr_curve.cpp
+C:\repos\JK2-JO\code\renderer\tr_curve.cpp(314,16): warning C4456: declaration of 'dir' hides previous local declaration
+C:\repos\JK2-JO\code\renderer\tr_curve.cpp(288,8): message : see declaration of 'dir'
+  tr_draw.cpp
+  tr_font.cpp
+C:\repos\JK2-JO\code\renderer\tr_font.cpp(413,5): warning C4456: declaration of 'i' hides previous local declaration
+C:\repos\JK2-JO\code\renderer\tr_font.cpp(351,13): message : see declaration of 'i'
+C:\repos\JK2-JO\code\qcommon\sstring.h(99,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(98): message : while compiling class template member function 'bool sstring<64>::operator <(const sstring<64> &) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef(127): message : see reference to function template instantiation 'bool sstring<64>::operator <(const sstring<64> &) const' being compiled
+C:\repos\JK2-JO\code\renderer\tr_font.cpp(914): message : see reference to class template instantiation 'sstring<64>' being compiled
+  tr_ghoul2.cpp
+C:\repos\JK2-JO\code\renderer\tr_ghoul2.cpp(1180,2): warning C4389: '==': signed/unsigned mismatch
+  tr_image.cpp
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(717,65): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1206,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1211,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1216,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1221,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1226,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1231,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1240,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1251,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1255,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1374,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1417,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(1470,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(99,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(98): message : while compiling class template member function 'bool sstring<64>::operator <(const sstring<64> &) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef(127): message : see reference to function template instantiation 'bool sstring<64>::operator <(const sstring<64> &) const' being compiled
+C:\repos\JK2-JO\code\renderer\tr_image.cpp(2071): message : see reference to class template instantiation 'sstring<64>' being compiled
+  Generating Code...
+  Compiling...
+  tr_init.cpp
+C:\repos\JK2-JO\code\renderer\tr_init.cpp(274,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_init.cpp(277,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_init.cpp(280,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_init.cpp(283,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_init.cpp(286,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_init.cpp(289,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_init.cpp(389,25): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_init.cpp(482,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_init.cpp(1324,23): warning C4459: declaration of 're' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(248,21): message : see declaration of 're'
+  tr_jpeg_interface.cpp
+  tr_light.cpp
+  tr_main.cpp
+  tr_marks.cpp
+  tr_mesh.cpp
+  tr_model.cpp
+C:\repos\JK2-JO\code\renderer\tr_model.cpp(489,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_model.cpp(687,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_model.cpp(695,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_model.cpp(696,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_model.cpp(811,5): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(99,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(98): message : while compiling class template member function 'bool sstring<64>::operator <(const sstring<64> &) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef(127): message : see reference to function template instantiation 'bool sstring<64>::operator <(const sstring<64> &) const' being compiled
+C:\repos\JK2-JO\code\renderer\tr_model.cpp(70): message : see reference to class template instantiation 'sstring<64>' being compiled
+  tr_noise.cpp
+  tr_quicksprite.cpp
+  tr_scene.cpp
+  tr_shade.cpp
+C:\repos\JK2-JO\code\renderer\tr_shade.cpp(93,24): warning C4389: '==': signed/unsigned mismatch
+C:\repos\JK2-JO\code\renderer\tr_shade.cpp(93,55): warning C4389: '==': signed/unsigned mismatch
+C:\repos\JK2-JO\code\renderer\tr_shade.cpp(121,19): warning C4389: '==': signed/unsigned mismatch
+C:\repos\JK2-JO\code\renderer\tr_shade.cpp(121,50): warning C4389: '==': signed/unsigned mismatch
+C:\repos\JK2-JO\code\renderer\tr_shade.cpp(883,10): warning C4456: declaration of 'i' hides previous local declaration
+C:\repos\JK2-JO\code\renderer\tr_shade.cpp(860,6): message : see declaration of 'i'
+  tr_shader.cpp
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(1458,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(1459,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(1488,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(1489,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(1513,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(1520,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(1521,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(1881,27): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(2127,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(2979,2): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(3146,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(3311,18): warning C4459: declaration of 'shader' hides global declaration
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(56,18): message : see declaration of 'shader'
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(3395,4): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(3461,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_shader.cpp(3462,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  tr_shade_calc.cpp
+C:\repos\JK2-JO\code\renderer\tr_shade_calc.cpp(509,38): warning C4389: '==': signed/unsigned mismatch
+C:\repos\JK2-JO\code\renderer\tr_shade_calc.cpp(510,41): warning C4389: '==': signed/unsigned mismatch
+  tr_shadows.cpp
+C:\repos\JK2-JO\code\renderer\tr_shadows.cpp(32,49): warning C4459: declaration of 'facing' hides global declaration
+C:\repos\JK2-JO\code\renderer\tr_shadows.cpp(30,14): message : see declaration of 'facing'
+  tr_sky.cpp
+  tr_stl.cpp
+C:\repos\JK2-JO\code\qcommon\sstring.h(99,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\qcommon\sstring.h(98): message : while compiling class template member function 'bool sstring<64>::operator <(const sstring<64> &) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef(127): message : see reference to function template instantiation 'bool sstring<64>::operator <(const sstring<64> &) const' being compiled
+C:\repos\JK2-JO\code\renderer\tr_stl.cpp(49): message : see reference to class template instantiation 'sstring<64>' being compiled
+  tr_surface.cpp
+  tr_surfacesprites.cpp
+  tr_world.cpp
+  tr_WorldEffects.cpp
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(449,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(754,6): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(760,6): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1400,6): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1412,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1418,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1424,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1430,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1436,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1439,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1445,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1451,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1460,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1828,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1930,6): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1936,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1947,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1952,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1958,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(1964,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(2251,6): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(2256,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(2265,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(2278,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(2283,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(2292,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(2305,11): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(2308,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\renderer\tr_WorldEffects.cpp(2312,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+  Generating Code...
+  Compiling...
+  sv_ccmds.cpp
+C:\repos\JK2-JO\code\game\g_items.h(71,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-ITM_NONE>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_items.h(86,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-INV_ELECTROBINOCULARS>' when no variable is declared
+C:\repos\JK2-JO\code\server\sv_ccmds.cpp(32,14): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_ccmds.cpp(91,17): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_ccmds.cpp(267,14): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_ccmds.cpp(354,14): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+  sv_client.cpp
+C:\repos\JK2-JO\code\server\sv_client.cpp(22,14): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_client.cpp(239,106): warning C4459: declaration of 'eSavedGameJustLoaded' hides global declaration
+C:\repos\JK2-JO\code\server\server.h(294,30): message : see declaration of 'eSavedGameJustLoaded'
+C:\repos\JK2-JO\code\server\sv_client.cpp(280,45): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_client.cpp(294,41): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_client.cpp(328,49): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_client.cpp(354,61): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_client.cpp(380,58): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_client.cpp(414,52): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_client.cpp(436,53): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_client.cpp(561,58): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+  sv_game.cpp
+C:\repos\JK2-JO\code\server\sv_game.cpp(79,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sv_init.cpp
+C:\repos\JK2-JO\code\qcommon\miniheap.h(44,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_init.cpp(384,14): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+  sv_main.cpp
+C:\repos\JK2-JO\code\qcommon\miniheap.h(44,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_main.cpp(104,63): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_main.cpp(114,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_main.cpp(155,14): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_main.cpp(161,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_main.cpp(184,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_main.cpp(277,14): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_main.cpp(345,14): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+C:\repos\JK2-JO\code\server\sv_main.cpp(396,14): warning C4459: declaration of 'cl' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(108,24): message : see declaration of 'cl'
+  sv_savegame.cpp
+C:\repos\JK2-JO\code\game\g_items.h(71,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-ITM_NONE>' when no variable is declared
+C:\repos\JK2-JO\code\game\g_items.h(86,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-INV_ELECTROBINOCULARS>' when no variable is declared
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(109,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(113,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(276,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(340,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(349,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(449,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(464,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(715,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(949,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(1467,16): warning C4389: '!=': signed/unsigned mismatch
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(1350,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_savegame.cpp(1351,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sv_snapshot.cpp
+  sv_world.cpp
+C:\repos\JK2-JO\code\qcommon\miniheap.h(44,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\server\sv_world.cpp(255,10): warning C4456: declaration of 'i' hides previous local declaration
+C:\repos\JK2-JO\code\server\sv_world.cpp(200,8): message : see declaration of 'i'
+  ui_atoms.cpp
+  ui_connect.cpp
+  ui_debug.cpp
+  ui_main.cpp
+C:\repos\JK2-JO\code\ui\ui_main.cpp(295,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ui\ui_main.cpp(1201,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ui\ui_main.cpp(2660,18): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ui\ui_main.cpp(2661,6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ui_shared.cpp
+C:\repos\JK2-JO\code\ui\ui_shared.cpp(191,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ui\ui_shared.cpp(1155,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ui\ui_shared.cpp(4470,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ui\ui_shared.cpp(4874,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ui\ui_shared.cpp(5296,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ui\ui_shared.cpp(5297,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ui\ui_shared.cpp(5303,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ui\ui_shared.cpp(5504,23): warning C4456: declaration of 'parent' hides previous local declaration
+C:\repos\JK2-JO\code\ui\ui_shared.cpp(5492,13): message : see declaration of 'parent'
+  ui_syscalls.cpp
+C:\repos\JK2-JO\code\ui\ui_syscalls.cpp(43,53): warning C4459: declaration of 're' hides global declaration
+C:\repos\JK2-JO\code\client\client.h(248,21): message : see declaration of 're'
+  win_gamma.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\win32\win_gamma.cpp(94,2): warning C4996: 'GetVersionExA': was declared deprecated
+  win_glimp.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\win32\win_glimp.cpp(1241,7): warning C4996: 'GetVersionExA': was declared deprecated
+C:\repos\JK2-JO\code\win32\win_glimp.cpp(1282,2): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\win32\win_glimp.cpp(1335,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\win32\win_glimp.cpp(1383,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_glimp.cpp(1386,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_glimp.cpp(1415,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_glimp.cpp(1416,2): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+  win_qgl.cpp
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(763,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(765,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(767,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(769,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(771,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(773,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(775,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(777,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(779,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(781,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(783,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(815,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(893,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(896,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(899,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(902,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(905,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(908,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(911,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(914,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(3594,14): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(3596,4): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(3600,23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_qgl.cpp(3602,39): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  vmachine.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  cl_ff.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  ff.cpp
+  ff_ChannelSet.cpp
+  ff_ConfigParser.cpp
+  ff_ffset.cpp
+  ff_HandleTable.cpp
+  ff_MultiCompound.cpp
+  ff_MultiEffect.cpp
+  ff_MultiSet.cpp
+  ff_snd.cpp
+  ff_system.cpp
+  ff_utils.cpp
+  genericparser2.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(214,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(373,14): warning C4459: declaration of 'token' hides global declaration
+C:\repos\JK2-JO\code\game\genericparser2.cpp(22,13): message : see declaration of 'token'
+C:\repos\JK2-JO\code\game\genericparser2.cpp(384,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(596,8): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(679,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(690,14): warning C4459: declaration of 'token' hides global declaration
+C:\repos\JK2-JO\code\game\genericparser2.cpp(22,13): message : see declaration of 'token'
+C:\repos\JK2-JO\code\game\genericparser2.cpp(710,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(715,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(719,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(728,12): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\game\genericparser2.cpp(797,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+  q_math.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  q_shared.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(81,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(652,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(790,8): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(821,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(981,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.cpp(1054,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cmd.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\cmd.cpp(331,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\cmd.cpp(333,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cm_load.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  cm_patch.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\cm_patch.cpp(1333,28): warning C4459: declaration of 'planes' hides global declaration
+C:\repos\JK2-JO\code\qcommon\cm_patch.cpp(424,21): message : see declaration of 'planes'
+C:\repos\JK2-JO\code\qcommon\cm_patch.cpp(1483,22): warning C4459: declaration of 'planes' hides global declaration
+C:\repos\JK2-JO\code\qcommon\cm_patch.cpp(424,21): message : see declaration of 'planes'
+C:\repos\JK2-JO\code\qcommon\cm_patch.cpp(1628,28): warning C4459: declaration of 'planes' hides global declaration
+C:\repos\JK2-JO\code\qcommon\cm_patch.cpp(424,21): message : see declaration of 'planes'
+  cm_polylib.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  Generating Code...
+  Compiling...
+  cm_test.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  cm_trace.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
   common.cpp
 C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
 C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
@@ -8,511 +568,49 @@ C:\repos\JK2-JO\code\qcommon\common.cpp(128,2): warning C4996: 'vsprintf': This 
 C:\repos\JK2-JO\code\qcommon\common.cpp(136,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\repos\JK2-JO\code\qcommon\common.cpp(178,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\repos\JK2-JO\code\qcommon\common.cpp(193,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\repos\JK2-JO\code\qcommon\common.cpp(260,65): error C3680: cannot concatenate user-defined string literals with mismatched literal suffix identifiers
-C:\repos\JK2-JO\code\qcommon\common.cpp(260,65): message : Concatenating suffix 'S_COLOR_MAGENTA' with suffix 'S_COLOR_RED'
-C:\repos\JK2-JO\code\qcommon\common.cpp(260,113): error C3688: invalid literal suffix 'S_COLOR_MAGENTA'; literal operator or literal operator template 'operator ""S_COLOR_MAGENTA' not found
 C:\repos\JK2-JO\code\qcommon\common.cpp(237,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\repos\JK2-JO\code\qcommon\common.cpp(399,19): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
 C:\repos\JK2-JO\code\qcommon\common.cpp(1351,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  cm_test.cpp
+  cvar.cpp
 C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
 C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
 C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
 C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  ff_utils.cpp
+C:\repos\JK2-JO\code\qcommon\cvar.cpp(493,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\cvar.cpp(549,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\cvar.cpp(551,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  files.cpp
 C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
 C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
 C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
 C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.cpp(44,14): error C2065: 'i': undeclared identifier
-C:\repos\JK2-JO\code\ff\ff_utils.cpp(44,29): error C2065: 'i': undeclared identifier
-C:\repos\JK2-JO\code\ff\ff_utils.cpp(45,18): error C2065: 'i': undeclared identifier
-C:\repos\JK2-JO\code\ff\ff_utils.cpp(47,16): error C2065: 'i': undeclared identifier
-C:\repos\JK2-JO\code\ff\ff_utils.cpp(47,29): error C2065: 'i': undeclared identifier
-C:\repos\JK2-JO\code\ff\ff_utils.cpp(48,18): error C2065: 'i': undeclared identifier
-  ff_system.cpp
-C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_system.cpp(80,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-  ff_snd.cpp
-C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-  ff_ffset.cpp
-C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ffset.cpp(68,8): error C2065: 'j': undeclared identifier
-C:\repos\JK2-JO\code\ff\ff_ffset.cpp(92,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ffset.cpp(105,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ffset.cpp(108,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ffset.cpp(228,11): warning C4456: declaration of 'i' hides previous local declaration
-C:\repos\JK2-JO\code\ff\ff_ffset.cpp(213,8): message : see declaration of 'i'
-C:\repos\JK2-JO\code\ff\ff_ffset.cpp(225,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ffset.cpp(266,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ffset.cpp(277,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-  ff_MultiSet.cpp
-C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-  ff_MultiEffect.cpp
-C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(36,2): error C2563: mismatch in formal parameter list
-C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(71,2): error C2563: mismatch in formal parameter list
-C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(110,31): error C2563: mismatch in formal parameter list
-C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(145,31): error C2563: mismatch in formal parameter list
-C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(184,2): error C2563: mismatch in formal parameter list
-C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(209,31): error C2563: mismatch in formal parameter list
-C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(241,2): error C2563: mismatch in formal parameter list
-C:\repos\JK2-JO\code\ff\ff_MultiEffect.cpp(270,2): error C2563: mismatch in formal parameter list
-  ff_MultiCompound.cpp
-C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_MultiCompound.cpp(195,22): error C2065: 'itSet': undeclared identifier
-  ff_HandleTable.cpp
-C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_HandleTable.cpp(31,5): error C2065: 'itRegFail': undeclared identifier
-C:\repos\JK2-JO\code\ff\ff_HandleTable.cpp(32,7): error C2065: 'itRegFail': undeclared identifier
-C:\repos\JK2-JO\code\ff\ff_HandleTable.cpp(71,4): error C2065: 'i': undeclared identifier
-C:\repos\JK2-JO\code\ff\ff_HandleTable.cpp(72,4): error C2065: 'i': undeclared identifier
-  ff_ConfigParser.cpp
-C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(67,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(72,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(116,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(181,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(326,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ConfigParser.cpp(331,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-  ff_ChannelSet.cpp
-C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(27,30): error C2440: '=': cannot convert from 'const char *' to 'char *'
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(27,18): message : Conversion loses qualifiers
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(41,6): error C2264: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function definition or declaration; function not called
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(41,6): error C2446: '!=': no conversion from 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>' to 'ChannelIterator'
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(40,33): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(46,11): error C2065: 'itChannel': undeclared identifier
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(22,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(33,44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(82,2): error C2264: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function definition or declaration; function not called
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(82,2): error C2446: '!=': no conversion from 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>' to 'ChannelIterator'
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(81,29): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(125,5): error C2264: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function definition or declaration; function not called
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(125,5): error C2446: '!=': no conversion from 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>' to 'ChannelIterator'
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(124,32): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(112,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.cpp(135,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-  ff.cpp
-C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
-C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ifc\ImmEffect.h(62,58): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(121): message : see reference to class template instantiation 'multimapIterator<T>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(80,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): warning C4346: 'key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,5): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(82,1): error C2238: unexpected token(s) preceding ';'
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): warning C4346: 'T::key_type': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(84,31): error C2061: syntax error: identifier 'key_type'
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(100,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2805: binary 'operator !=' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<T>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): warning C4346: 'T::iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(104,28): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2805: binary 'operator ==' has too few parameters
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<T>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(108,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(109,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): warning C4346: 'iterator': dependent name is not a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,1): message : prefix with 'typename' to indicate a type
-C:\repos\JK2-JO\code\ff\ff_utils.h(112,5): error C2061: syntax error: identifier 'iterator'
-C:\repos\JK2-JO\code\ff\ff_utils.h(113,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-C:\repos\JK2-JO\code\ff\ff_utils.h(101,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator !=': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff_ChannelSet.h(52): message : see reference to class template instantiation 'multimapIterator<FFChannelSet::Channel>' being compiled
-C:\repos\JK2-JO\code\ff\ff_utils.h(105,1): error C2333: 'multimapIterator<FFChannelSet::Channel>::operator ==': error in function declaration; skipping function body
-C:\repos\JK2-JO\code\ff\ff.cpp(290,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  Generating Code...
-  Compiling...
+C:\repos\JK2-JO\code\qcommon\files.cpp(408,2): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(447,30): warning C4389: '!=': signed/unsigned mismatch
+C:\repos\JK2-JO\code\qcommon\files.cpp(464,31): warning C4389: '!=': signed/unsigned mismatch
+C:\repos\JK2-JO\code\qcommon\files.cpp(438,6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(459,6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(595,30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(634,30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(675,30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(835,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(836,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(837,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(845,36): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(859,35): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(993,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1366,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1411,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1430,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1505,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1588,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1598,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1673,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1733,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1734,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1746,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1751,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1753,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\files.cpp(1887,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   hstring.cpp
 C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
 C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
@@ -523,4 +621,143 @@ C:\repos\JK2-JO\code\qcommon\hstring.cpp(90,2): warning C4996: 'sprintf': This f
 C:\repos\JK2-JO\code\qcommon\hstring.cpp(423,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\repos\JK2-JO\code\qcommon\hstring.cpp(479,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\repos\JK2-JO\code\qcommon\hstring.cpp(485,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  md4.cpp
+  msg.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\msg.cpp(829,25): warning C4456: declaration of 'numFields' hides previous local declaration
+C:\repos\JK2-JO\code\qcommon\msg.cpp(803,12): message : see declaration of 'numFields'
+  net_chan.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\net_chan.cpp(71,79): warning C4459: declaration of 'qport' hides global declaration
+C:\repos\JK2-JO\code\qcommon\net_chan.cpp(43,10): message : see declaration of 'qport'
+C:\repos\JK2-JO\code\qcommon\net_chan.cpp(220,13): warning C4459: declaration of 'qport' hides global declaration
+C:\repos\JK2-JO\code\qcommon\net_chan.cpp(43,10): message : see declaration of 'qport'
+C:\repos\JK2-JO\code\qcommon\net_chan.cpp(521,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  strip.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\strip.cpp(137,8): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\repos\JK2-JO\code\qcommon\strip.cpp(279,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\strip.cpp(362,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\strip.cpp(489,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\strip.cpp(496,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\strip.cpp(608,65): warning C4389: '==': signed/unsigned mismatch
+C:\repos\JK2-JO\code\qcommon\strip.cpp(662,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\strip.cpp(698,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\strip.cpp(859,2): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\strip.cpp(940,2): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  unzip.cpp
+C:\repos\JK2-JO\code\game\q_shared.h(924,64): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(926,72): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(927,44): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\repos\JK2-JO\code\game\q_shared.h(928,44): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\repos\JK2-JO\code\qcommon\unzip.cpp(1328,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\qcommon\unzip.cpp(1365,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Generating Code...
+  buffer.cpp
+  cpp_interface.cpp
+  sockets.cpp
+  Generating Code...
+  G2_API.cpp
+C:\repos\JK2-JO\code\qcommon\MiniHeap.h(44,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(75,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(82,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(86,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(116,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(117,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(118,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(119,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(227,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(250,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(379,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(392,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(396,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_API.cpp(565,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  G2_bolts.cpp
+C:\repos\JK2-JO\code\ghoul2\G2_bolts.cpp(176,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  G2_bones.cpp
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(54,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(83,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(106,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(220,19): warning C4456: declaration of 'newAngles' hides previous local declaration
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(215,11): message : see declaration of 'newAngles'
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(545,32): warning C4457: declaration of 'animSpeed' hides function parameter
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(509,58): message : see declaration of 'animSpeed'
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(546,18): warning C4457: declaration of 'startFrame' hides function parameter
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(508,79): message : see declaration of 'startFrame'
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(546,28): warning C4457: declaration of 'endFrame' hides function parameter
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(509,19): message : see declaration of 'endFrame'
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(546,35): warning C4457: declaration of 'flags' hides function parameter
+C:\repos\JK2-JO\code\ghoul2\G2_bones.cpp(509,39): message : see declaration of 'flags'
+  G2_misc.cpp
+C:\repos\JK2-JO\code\qcommon\miniheap.h(44,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_misc.cpp(743,17): warning C4456: declaration of 's' hides previous local declaration
+C:\repos\JK2-JO\code\ghoul2\G2_misc.cpp(718,14): message : see declaration of 's'
+C:\repos\JK2-JO\code\ghoul2\G2_misc.cpp(1222,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  G2_surfaces.cpp
+C:\repos\JK2-JO\code\ghoul2\G2_surfaces.cpp(111,3): warning C4389: '==': signed/unsigned mismatch
+C:\repos\JK2-JO\code\ghoul2\G2_surfaces.cpp(132,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_surfaces.cpp(175,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\repos\JK2-JO\code\ghoul2\G2_surfaces.cpp(312,7): warning C4389: '==': signed/unsigned mismatch
+  win_input.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  win_main.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\win32\win_main.cpp(72,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_main.cpp(331,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_main.cpp(334,5): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_main.cpp(796,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_main.cpp(881,7): warning C4996: 'GetVersionExA': was declared deprecated
+  win_shared.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\win32\win_shared.cpp(269,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_shared.cpp(273,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  win_snd.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  win_syscon.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\repos\JK2-JO\code\win32\win_syscon.cpp(203,4): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_syscon.cpp(204,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repos\JK2-JO\code\win32\win_syscon.cpp(425,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  win_video.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  win_wndproc.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Generating Code...
+  cdct.c
+  csbt.c
+  csbtb.c
+  csbtL3.c
+  cup.c
+  cupini.c
+  cupL1.c
+  cupl3.c
+  cwin.c
+  cwinb.c
+  cwinm.c
+  hwin.c
+  l3dq.c
+  l3init.c
+  mdct.c
+  mhead.c
+  msis.c
+C:\repos\JK2-JO\code\mp3code\msis.c(226,14): warning C4459: declaration of 'lr' hides global declaration
+C:\repos\JK2-JO\code\mp3code\msis.c(64,14): message : see declaration of 'lr'
+  towave.c
+  uph.c
+  upsf.c
+  Generating Code...
+  Compiling...
+  wavep.c
+  MatComp.c
+  Generating Code...
+cl_cgame.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  starwars.vcxproj -> C:\repos\JK2-JO\code\Debug\jk2sp.exe
